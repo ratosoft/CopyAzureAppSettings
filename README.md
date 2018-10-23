@@ -1,7 +1,7 @@
 # Script para cópia de Application Settings de um Azure App Service para outro
 
 ## Instruções de uso:
-1) PREENCHER AS VARIÁVEIS:
+1) Preencher as variáveis:
 
     $subscriptionIdSource = ""
 
