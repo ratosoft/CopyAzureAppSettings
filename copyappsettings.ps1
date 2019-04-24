@@ -1,6 +1,6 @@
 #PREENCHER AS VARIÁVEIS ABAIXO
-$tenantIdSource = "3737ddf7-0b60-4f73-a0ce-2abe5bb94cf4"
-$tenantIdTarget = "3737ddf7-0b60-4f73-a0ce-2abe5bb94cf4"
+$tenantIdSource = ""
+$tenantIdTarget = ""
 
 $subscriptionIdSource = ""
 $subscriptionIdTarget = ""
