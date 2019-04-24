@@ -1,4 +1,7 @@
 #PREENCHER AS VARIÁVEIS ABAIXO
+$tenantIdSource = "3737ddf7-0b60-4f73-a0ce-2abe5bb94cf4"
+$tenantIdTarget = "3737ddf7-0b60-4f73-a0ce-2abe5bb94cf4"
+
 $subscriptionIdSource = ""
 $subscriptionIdTarget = ""
 
@@ -13,9 +16,9 @@ $slotSource = ""
 $slotTarget = ""
 #PREENCHER AS VARIÁVEIS ACIMA
 
-Login-AzureRmAccount
+Login-AzureRmAccount -TenantId $tenantIdSource -SubscriptionId $subscriptionIdSource 
 
-Set-AzureRmContext -subscriptionId $subscriptionIdSource
+#Set-AzureRmContext -subscriptionId $subscriptionIdSource
 
 # Load Existing Web App settings for source and target
 If($slotSource -eq "") {    
